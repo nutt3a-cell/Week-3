@@ -31,7 +31,7 @@ def default_route():    #route handler function
     return "You have reached the default route. Back-end server is listening..."
     
 @app.get("/list")  
-def get_example():    
+def get_list():    
     """
     This endpoint returns a JSON object consisting of a simple message.
     """
